@@ -21,7 +21,7 @@ Route::get('/test1', function () {
     return 'welcome';
 });
 
-Route::get('/test2/{id?}', function () {
+Roussste::get('/test2/{id?}', function () {
     return 'welcome ';
 });
 Route::get('/testlanding', function () {
